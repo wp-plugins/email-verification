@@ -1,5 +1,5 @@
 === Email Verification ===
-Contributors: IdentityVerifications
+Contributors: identity-verification-services
 Tags: Email,Verification,Email Verification,Identity Verification,Mobile Verification,Authentication,Verify. 
 authentication, security
 Requires at least: 3.9
