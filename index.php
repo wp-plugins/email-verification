@@ -122,6 +122,7 @@
 		// Mobile Number Verification 
 		$_POST['auth_token']=$auth_token_result->auth_token;
 		$_POST['redirect_url']=$api_credentials[0]->redirect_url;
+		$_POST['error_url']=$api_credentials[0]->error_url;
 		$email_verification_url='https://api.identityverification.com/get_verified/email/';
 		$email_authentication_response=ev_sendPostData_api($email_verification_url,json_encode($_POST));
 		echo $result=json_encode($email_authentication_response);
