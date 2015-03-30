@@ -1,4 +1,4 @@
-<img src="<?php echo plugins_url()?>/email_verification/images/loader.gif" style="display:none" class="loader_image">
+<img src="<?php echo plugins_url('/images/loader.gif' , __FILE__)?>" style="display:none" class="loader_image">
 
 <?php
 if(count($configuration_details)>0){
