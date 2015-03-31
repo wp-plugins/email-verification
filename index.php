@@ -3,7 +3,7 @@
 	* Plugin Name: Email Verification
 	* Description: This is the first level qualification to address random registrations.You can position this API anywhere on your website or inside a form and customise the look and feel to suit the style of your website.
 	* Author: Identity Verification Services
-	* Version:1.0
+	* Version:2.0
 	* Author URI: https://wordpress.org/plugins/identity-verification-australia/developers/ 
 	*/
 

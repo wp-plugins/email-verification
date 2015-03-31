@@ -4,7 +4,7 @@ Tags: Email,Verification,Email Verification,Identity Verification,Mobile Verific
 authentication, security
 Requires at least: 3.9
 Tested up to: 4.2-alpha
-Stable tag: 1.0
+Stable tag: 2.0
 
 
 == Description ==

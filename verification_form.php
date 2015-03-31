@@ -1,7 +1,7 @@
 <img src="<?php echo plugins_url('/images/loader.gif' , __FILE__)?>" style="display:none" class="loader_image">
 
 <?php
-if(count($configuration_details)>0){
+if(count($configuration_details)>0 && in_array  ('curl', get_loaded_extensions())){
 ?>
 <div class="ivs-form1">
 	<div class="ivs-message_ev alert-static"></div>
