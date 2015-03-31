@@ -1,0 +1,114 @@
+.loader_image{position: ABSOLUTE;margin-top: -5%;margin-left: 15%}
+.resend_sms{background: #4b85b2 !important;padding:3px;color:#fff;}
+.btn,#verify_ev{background:#4b85b2 !important;color:#fff;border:1px solid;width:150px;cursor:pointer;float:right;border-radius: 5px;padding:10px;font-size: 16px;}
+.ivs-btn{float:right;}
+.resend_email{background: #4b85b2;padding:3px;color:#fff;}
+#verify_ev{width:68px !important;padding:10px;font-size: 14px;border-radius: 5px;text-align: center;font-weight:bold;}
+.ivs-btn a{text-align: center}
+.verification_list{text-transform: uppercase;font-size:13px;padding:5px 22px;}
+.description{text-transform: uppercase;;font-size:18px !important;text-align:Center}
+ol{margin : 0px 20px;padding:3px 24px;}
+ol li{padding:4px;}
+.required{color:Red;}
+.err{color:Red;}
+.title{width:250px;}
+.ui-widget-content{background:#fff !important;}
+
+.loader_image{position: ABSOLUTE;margin-top: -5%;margin-left: 15%}
+
+/* Frontend IVS Form - Start 03/03/2015 */
+
+.ivs-form1{margin-bottom:50px;float:left;width:75%;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;padding:20px;background:#ededed;}
+.ivs-inner-form{width:58%;float:left;}
+.ivs-field {margin: 5px 0px;}
+.ivs-field label{width:29%;float: left;margin-top: 14px;}
+.ivs-field input{width:70%!important;float: right;}
+.ivs-field .btn{width: 75px!important;margin-left: 7px;float: left;}
+.ivs-field select{background: none repeat scroll 0 0 #f9f9f9;border: 1px solid #e0e0e0;float: right;height: 40px;width: 70% !important;padding-left: 5px;}
+.ivs-radio {float: right;width:70%!important;margin:9px 0px; }
+.ivs-radio input{float: none;display: inline;width: auto!important;}
+.ivs-field .ivs-input{width:70%!important;float: right;}
+.ivs-field .ivs-input input{width:100%!important;}
+.ivs-field .ivs-input select{width:100%!important;}
+.ivs-field .ivs-input .err{display: inline-block;
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 7px !important;}
+
+
+.content-element-1 h3{font-size: 22px;}
+table.response-tbl{width:40%!important;margin: 20px auto!important;border: 1px solid #ededed; }
+table.response-tbl td{padding: 7px 10px!important;}
+
+
+@media (max-width: 525px) and (min-width: 320px) {
+	.ivs-form{width: 100%;}
+	.ivs-field label{display: none;}
+	.ivs-field .ivs-input{width:100%!important;float: none;}
+	.ivs-radio {width: 100%!important;}
+	.ivs-btn {text-align: center;}
+	.ivs-field .btn {float: none;text-align: center;}
+	table.response-tbl{width:100%!important;}
+
+}
+@media (max-width: 768px) and (min-width: 526px) {
+		.ivs-form{width: 100%;}
+		table.response-tbl{width:75%!important;}
+	}
+	@media (max-width: 1200px) and (min-width: 769px) {
+		.ivs-form{width: 75%;}
+	}
+/*.ivs-message{font-style:italic;color: lightcyan;background: rgb(78,159,216) !important;width: 35%;text-align: Center;padding: 5px;display:none;}*/
+.resend-block{float:left;}
+
+
+
+.alert-static {
+display: none;
+background-color: #FCF8E3;
+border: 1px solid #fffff4;
+border-radius: 4px 4px 4px 4px;
+color: #C09853;
+margin-bottom: 18px;
+padding: 8px 35px 8px 14px;
+text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+font-family: "open sans";
+text-align: center;
+font-size: 14px;
+}
+
+/* Frontend IVS Form - End */
+
+
+/* Backend IVS Form - Start 04/03/2015 */
+
+.ivs-bc .setting{width: 55%;float: left;margin-right: 15px;}
+.ivs-bc .info{width: 29%;float: left;background: #fff;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.ivs-bc .info img{max-width: 300px;margin: 20px auto;}
+.ivs-bc .setting .form-table td{padding: 7px!important;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+body .ivs-bc .setting table.form-table tr td:nth-child(1){font-weight: bold;width: 38%;}
+body .ivs-bc .setting table.form-table tr td:nth-child(2){width: 60%;}
+body .ivs-bc .setting table.form-table tr td:nth-child(2) input{width: 100%;height: 40px;}
+body .ivs-bc .setting table.form-table tr td:nth-child(2) input[type="submit"]{width: 75px;}
+
+
+
+@media (max-width: 1100px) and (min-width: 781px) {
+.ivs-bc .setting{width: 100%;float: none;}
+.ivs-bc .info{width: 100%;margin-top: 20px;}
+}
+@media (max-width: 1350px) and (min-width: 1099px) {
+.ivs-bc .setting{width: 70%;float: none;}
+.ivs-bc .info{width: 100%;margin-top: 20px;}
+}
+
+@media (max-width: 780px) and (min-width: 320px) {
+.ivs-bc .setting{width: 100%;float: none;}
+.ivs-bc .info{width: 100%;margin-top: 20px;}
+body .ivs-bc .setting .form-table td{padding-bottom: 2px!important;margin-bottom: 0px!important;}
+body .ivs-bc .setting table.form-table tr td:nth-child(2){margin-bottom: 20px!important;}
+body .ivs-bc .setting table.form-table {width: 100%!important;}
+body .ivs-bc .setting table.form-table td{width: 100%!important;}
+body .ivs-bc .setting table.form-table tr td.td-btn{text-align: center;}
+}
+/* Backend IVS Form - End */
