@@ -1,13 +1,6 @@
 jQuery(document).ready(function(){
 
-	var fullpath=window.location.href;
-	var split_path=fullpath.split("/");
-	if(split_path[4]==''){
-		var site_url='http://'+window.location.hostname;
-	}else{
-		var site_url='http://'+window.location.hostname+"/"+split_path[3];
-	}
-
+	
 	jQuery("#verify_ev").click(function(){
 		var reg_email=/^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
 		if(jQuery("#email").val()==''){

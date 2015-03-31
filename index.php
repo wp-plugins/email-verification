@@ -81,7 +81,7 @@
 	add_action('wp_enqueue_scripts', 'ev_styles');
 	
 	function ev_styles() {
-		//%%KEEPWHITESPACE%%&gt;  
+		
 		wp_register_style('ev_style', plugins_url('css/ev_style.css', __FILE__));
 		wp_enqueue_style('ev_style');
 		
@@ -97,6 +97,11 @@
 	function ev_scripts() {
 		
 		wp_enqueue_script('jquery');
+		?>
+<script>
+	var site_url='<?php echo site_url()?>'
+</script/>
+	<?php
 		wp_register_script('ev_script', plugins_url('js/ev_scripts.js', __FILE__));
 
 		wp_enqueue_script('ev_script');
