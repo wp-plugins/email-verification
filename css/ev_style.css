@@ -112,3 +112,50 @@ body .ivs-bc .setting table.form-table td{width: 100%!important;}
 body .ivs-bc .setting table.form-table tr td.td-btn{text-align: center;}
 }
 /* Backend IVS Form - End */
+
+
+
+.main-form-plg.email .ivs-form{
+
+	background: #ededed;
+	max-width: 600px;
+	width: 100%;
+	margin-bottom: 120px;
+	padding: 15px;
+
+}
+
+.main-form-plg.email .ivs-form input{
+	
+	margin-bottom:0px;
+	margin-top:20px;
+
+}	
+
+
+.main-form-plg.email .resend-block button{
+	padding: 6px 12px;
+}
+.main-form-plg.email .resend-block{
+
+	float: none;
+	margin-top: 25px;
+
+}
+
+.main-form-plg.email button#verify_ev{
+
+	font-size:100%;
+	width: auto!important;
+	min-width: 110px;
+	float: none;
+	margin: 15px 0px 0px 0px;
+	padding: 6px 25px;
+	font-weight: normal;
+	
+}
+.text-right{text-align: right;}
+.text-center{text-align: center;}
+
+
+
