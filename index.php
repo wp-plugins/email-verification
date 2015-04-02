@@ -1,6 +1,6 @@
 <?php
 	/**
-	* Plugin Name: Email Verification
+	* Plugin Name: Email Verification 
 	* Description: This is the first level qualification to address random registrations.You can position this API anywhere on your website or inside a form and customise the look and feel to suit the style of your website.
 	* Author: Identity Verification Services
 	* Version:2.0
@@ -29,7 +29,6 @@
 		}
 	}
 
-	// Plugin Deactivation Block
 
 	register_deactivation_hook( __FILE__,'ev_deactivate');
 
