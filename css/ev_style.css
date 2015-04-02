@@ -1,5 +1,5 @@
 .loader_image{position: absolute;margin-top: -5%;margin-left: 15%}
-.resend_sms{background: #4b85b2 !important;padding:3px;color:#fff;}
+
 .btn,#verify_ev{color:#fff;border:1px solid;width:150px;cursor:pointer;float:right;border-radius: 5px;padding:10px;font-size: 16px;}
 .ivs-btn{float:right;}
 .resend_email{}
@@ -112,7 +112,10 @@ body .ivs-bc .setting table.form-table td{width: 100%!important;}
 body .ivs-bc .setting table.form-table tr td.td-btn{text-align: center;}
 }
 /* Backend IVS Form - End */
-
+.ivs-input .err{ display: inline-block;
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 7px !important}
 
 
 .main-form-plg.email .ivs-form{
@@ -120,13 +123,17 @@ body .ivs-bc .setting table.form-table tr td.td-btn{text-align: center;}
 	background: #ededed;
 	max-width: 600px;
 	width: 100%;
-	margin-bottom: 120px;
+	margin-bottom: 50px;
 	padding: 15px;
+
+}
+.main-form-plg.email *{
+-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
 
 }
 
 .main-form-plg.email .ivs-form input{
-	
+	-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
 	margin-bottom:0px;
 	margin-top:20px;
 	width: 100%!important;
