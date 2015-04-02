@@ -1,8 +1,8 @@
 .loader_image{position: absolute;margin-top: -5%;margin-left: 15%}
 .resend_sms{background: #4b85b2 !important;padding:3px;color:#fff;}
-.btn,#verify_ev{background:#4b85b2 !important;color:#fff;border:1px solid;width:150px;cursor:pointer;float:right;border-radius: 5px;padding:10px;font-size: 16px;}
+.btn,#verify_ev{color:#fff;border:1px solid;width:150px;cursor:pointer;float:right;border-radius: 5px;padding:10px;font-size: 16px;}
 .ivs-btn{float:right;}
-.resend_email{background: #4b85b2;padding:3px;color:#fff;}
+.resend_email{}
 #verify_ev{width:68px !important;padding:10px;font-size: 14px;border-radius: 5px;text-align: center;font-weight:bold;}
 .ivs-btn a{text-align: center}
 .verification_list{text-transform: uppercase;font-size:13px;padding:5px 22px;}
@@ -129,6 +129,7 @@ body .ivs-bc .setting table.form-table tr td.td-btn{text-align: center;}
 	
 	margin-bottom:0px;
 	margin-top:20px;
+	width: 100%!important;
 
 }	
 
@@ -147,11 +148,12 @@ body .ivs-bc .setting table.form-table tr td.td-btn{text-align: center;}
 
 	font-size:100%;
 	width: auto!important;
-	min-width: 110px;
+	min-width: 11	0px;
 	float: none;
 	margin: 15px 0px 0px 0px;
 	padding: 6px 25px;
 	font-weight: normal;
+	
 	
 }
 .text-right{text-align: right;}
